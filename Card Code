@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE xml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://wapforum.org/DTD/wml12.dtd">
+
+<wml>
+
+	<card id="one" title="Students Info">
+	<do type="noop" label="Click Here">
+	<go href="#two"/>
+	</do>
+	</card>		
+
+	<card id="two" title="Students Info">
+	<table style="border:3px solid #000;">
+
+		<tr style="font-size:30px;">
+			<th style="border:1px solid #F00;">Name</th>
+			<th style="border:1px solid #F00;">Roll no</th>
+			<th style="border:1px solid #F00;">College</th>
+		</tr>
+
+		<tr style="text-align:center;">
+			<td style="border:1px solid #F00;">Brij Mohan</td>
+			<td style="border:1px solid #F00;">01011502715</td>
+			<td style="border:1px solid #F00;"><p><a href="exp2.wml#3">BVCOE</a></p></td>
+		</tr>
+
+		<tr style="text-align:center;">
+			<td style="border:1px solid #F00;">Saad</td>
+			<td style="border:1px solid #F00;">02111502715</td>
+			<td style="border:1px solid #F00;"><p><a href="exp2.wml#3">BPIT</a></p></td>
+		</tr>
+
+		<tr style="text-align:center;">
+			<td style="border:1px solid #F00;">Manohar</td>
+			<td style="border:1px solid #F00;">01911502715</td>
+			<td style="border:1px solid #F00;"><p><a href="exp2.wml#3">MAIT</a></p></td>
+		</tr>
+
+		<tr style="text-align:center;border:2px solid #000;">
+			<td style="border:1px solid #F00;">Abhishek</td>
+			<td style="border:1px solid #F00;">00411502715</td>
+			<td style="border:1px solid #F00;"><p><a href="exp2.wml#3">MSIT</a></p></td>
+		</tr>
+	</table>
+	</card>
+
+	<card id="3" title="Students Info">
+	<do type="noop" label="back">
+	<go href="#two"/>
+	</do>
+	<p>This is Final Card</p>
+	</card>		
+
+</wml>
